@@ -150,7 +150,7 @@ console.log(newXOffsetYOffsetRect);
 
   const point = { x: 2, y: 1 };
 const isInside = isPointInsideRectangle(rectangle, point);
-console.log(`Точка (${point.x}, ${point.y}) знаходиться находиться в середине прямоугольника: ${isInside}`);
+console.log(`Точка (${point.x}, ${point.y}) находиться в середине прямоугольника: ${isInside}`);
   
   
  

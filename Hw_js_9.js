@@ -51,11 +51,11 @@ function getRectanglePerimeter(rect) {
     newRect.bottomRight.x += change;
     return newRect;
   }
-  console.log('Початковий прямокутник:');
+  console.log('Начальный прямоугольник:');
   console.log(rectangle);
   
   const newWidthRect = changeRectangleWidth(rectangle, 2);
-  console.log('Прямокутник зі зміненою шириною:');
+  console.log('Измененная ширина:');
   console.log(newWidthRect);
   
 
@@ -69,7 +69,7 @@ function getRectanglePerimeter(rect) {
     return newRect;
   }
   const newHeightRect = changeRectangleHeight(rectangle, 1);
-  console.log('Прямокутник зі зміненою висотою:');
+  console.log('Измененная высота:');
   console.log(newHeightRect);
   
 
@@ -84,7 +84,7 @@ function getRectanglePerimeter(rect) {
     return newRect;
   }
   const newSizeRect = changeRectangleSize(rectangle, -1, 2);
-  console.log('Прямокутник зі зміненою шириною та висотою:');
+  console.log('Измененная гирина и высота:');
   console.log(newSizeRect);
   
 
@@ -99,7 +99,7 @@ function getRectanglePerimeter(rect) {
     return newRect;
   }
   const newXOffsetRect = offsetRectangleX(rectangle, 3);
-  console.log('Зміщений прямокутник по осі X:');
+  console.log('Смещение по оси X:');
   console.log(newXOffsetRect);
   
 
@@ -114,7 +114,7 @@ function getRectanglePerimeter(rect) {
     return newRect;
   }
   const newYOffsetRect = offsetRectangleY(rectangle, 2);
-console.log('Зміщений прямокутник по осі Y:');
+console.log('Смещение по оси Y:');
 console.log(newYOffsetRect);
 
 
@@ -131,7 +131,7 @@ console.log(newYOffsetRect);
     return newRect;
   }
   const newXOffsetYOffsetRect = offsetRectangleXY(rectangle, 3, -1);
-console.log('Зміщений прямокутник по осі X та Y:');
+console.log('Смещение по оси X та Y:');
 console.log(newXOffsetYOffsetRect);
 
 
@@ -150,7 +150,7 @@ console.log(newXOffsetYOffsetRect);
 
   const point = { x: 2, y: 1 };
 const isInside = isPointInsideRectangle(rectangle, point);
-console.log(`Точка (${point.x}, ${point.y}) знаходиться всередині прямокутника: ${isInside}`);
+console.log(`Точка (${point.x}, ${point.y}) знаходиться находиться в середине прямоугольника: ${isInside}`);
   
   
  
